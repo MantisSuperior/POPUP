@@ -1,0 +1,29 @@
+body{
+  background: #90CAF9;
+  margin: 5px;
+}
+input[type="checkbox"]#inputCheckbox{
+  display: block;
+}
+input[type="checkbox"]#inputCheckbox:checked + .popup{
+  display: block;
+}
+.popup{
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+.popup > div{
+  height: 100px;
+  width: 600px;
+  background-color: #9E9E9E;
+  color: #E0E0E0;
+  padding: 20px;
+  text-alight: center;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+}
